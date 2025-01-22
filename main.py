@@ -81,10 +81,11 @@ def main():
             break
         try:
             root = build_parallel_tree(expression)
-            print("Parallel tree:")
+            print("\nParallel tree:")
             print_parallel_tree_with_table(root)
             result = evaluate_expression(expression)
-            print(f"Result: {result}")
+            print(f"\nResult: {result}")
+            print(f"\n")
         except Exception as e:
             print("Error:", e)
 
