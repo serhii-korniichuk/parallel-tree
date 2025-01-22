@@ -1,5 +1,4 @@
 import re
-from prettytable import PrettyTable
 import sympy as sp
 
 class Node:
